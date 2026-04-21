@@ -15,4 +15,9 @@ public: //Akses publik memungkinkan anggota kelas diakses dari luar kelas
 };
 int main() { //fungsi utama program
     Mahasiswa mhs1; //membuat objek mhs1 dari kelas Mahasiswa
+
+    mhs1.nim = 111; //mengisi nilai nim untuk objek mhs1
+    mhs1.nama = "Joko Susilo"; //mengisi nilai nama untuk objek mhs1
+    mhs1.nilai = 75.5; //mengisi nilai nilai untuk objek mhs1
+    mhs1.printData(); //memanggil fungsi printData untuk mencetak data mahasiswa mhs1
 }
