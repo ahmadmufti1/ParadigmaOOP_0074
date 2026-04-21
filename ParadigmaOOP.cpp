@@ -14,5 +14,5 @@ public: //Akses publik memungkinkan anggota kelas diakses dari luar kelas
     }
 };
 int main() { //fungsi utama program
-    
+    Mahasiswa mhs1; //membuat objek mhs1 dari kelas Mahasiswa
 }
