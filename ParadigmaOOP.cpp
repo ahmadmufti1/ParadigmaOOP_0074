@@ -13,3 +13,6 @@ public: //Akses publik memungkinkan anggota kelas diakses dari luar kelas
         cout << "Nilai: " << nilai << endl;
     }
 };
+int main() { //fungsi utama program
+    
+}
